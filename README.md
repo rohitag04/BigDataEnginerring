@@ -62,3 +62,21 @@ You don't need any configurations in conf/*-site.xml files. Share the screenshot
 You may not sort manually nor write a program to sort. 
 You may need to run multiple map or reduce operations! Please refer to the slides to see the expected output format.
 
+# Assignment 4
+Page Rank Algorithm
+1. WIKISPECIES PAGERANK:
+Information - understand the bigger picture
+For this week, you are going to get ready for delivering the homework for the Monday after next, where you are going to find the most popular species on wiki species using the PageRank algorithm
+But you are still going to submit homework this week. Just that your results need not be as polished, yet.
+Download wikispecies straight from wikimedia or use the compressed XML on blackboard
+To do this, you are going to have to mapreduce with the XML data type. Since building hadoop data types is not super easy, I'll give this type to you next week.
+
+# Task - due this week - execute and analyze the code for the smaller input file
+
+1- For now, you can start with the smaller, dataset on blackboard, that is already sharded to be in text format, one line per record
+Iterate until you see that the PageRank deltas get smaller, you don't have to converge completely.
+If, for some reason, you see junk appearing in the data, get rid of it in your code
+Chain your mapreduces with a loop in your driver
+
+2. OPTIONAL - Extra Credits:  Predict long-term dynamics of a Markovian system of your choice.
+
